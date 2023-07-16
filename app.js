@@ -2,8 +2,6 @@ import express from "express";
 import mongoose from "mongoose";
 import router from "./routes/user-routes";
 import blogRouter from "./routes/blog-routes";
-const dotenv = require("dotenv");
-console.log(process.env);
 
 const app = express();
 app.use(express.json());
